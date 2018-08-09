@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_cliente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_empresa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -36,19 +36,19 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_servicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/menu_servico"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_contato"
+        app:layout_constraintStart_toStartOf="@+id/btn_cliente" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_contato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:background="@drawable/menu_contato"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintStart_toStartOf="@+id/btn_empresa"
+        app:layout_constraintTop_toBottomOf="@+id/btn_empresa" />
 </android.support.constraint.ConstraintLayout>
